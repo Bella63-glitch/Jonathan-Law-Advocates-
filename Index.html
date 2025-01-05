@@ -1,9 +1,9 @@
-<!doctype html>
-<html lang="en"> 
- <head> 
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Jonathan Law Advocates</title> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonathan Law Advocates</title>
   <style>
     /* General Styles */
     body {
@@ -24,24 +24,35 @@
       }
     }
 
-    /* Header Section */
+    /* Updated Header Section */
     header {
       background: #ffffff;
-      padding: 1rem 5%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      padding: 0.5rem 5%;
+      text-align: center;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
-    .menu-icon {
-      font-size: 1.8rem;
-      color: #F5864E;
-      cursor: pointer;
+    header img {
+      max-height: 120px; /* Increased logo size */
+      display: block;
+      margin: 0 auto; /* Center logo */
     }
 
-    header img {
-      max-height: 80px;
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #88403F;
+      font-weight: bold;
+      font-size: 0.9rem; /* Reduced text size */
+      margin: 0 0.8rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #F5864E;
     }
 
     /* Hero Section */
@@ -59,19 +70,11 @@
 
     /* Section Title */
     .section-title {
-      text-align: center;
+      text-align: center; /* Centered subheadings */
       font-size: 2rem;
       color: #88403F;
       text-transform: uppercase;
       margin: 2rem 0;
-    }
-
-    /* Introduction Section */
-    p {
-      max-width: 800px;
-      margin: 0 auto;
-      color: #333;
-      text-align: center;
     }
 
     /* Oval Image */
@@ -184,53 +187,72 @@
     footer p {
       margin: 0;
     }
-  </style> 
- </head> 
- <body> <!-- Header --> 
-  <header> <span class="menu-icon">☰</span> 
-   <img src="https://i.postimg.cc/hGbpTMmr/IMG-20250104-181019.jpg" alt="Law Firm Logo"> 
-  </header> <!-- Hero Section --> 
-  <section class="hero"> 
-   <img src="https://i.postimg.cc/zvwSsFwB/lawfirm-1.jpg" alt="Law Firm Hero"> 
-  </section> <!-- Introduction Section --> 
-  <section> 
-   <h2 class="section-title">Introduction</h2> 
-   <p>Jonathan Law Advocates was established in 2018 as a medium-size law firm with offices in Nairobi. We collaborate with law firms countrywide and internationally. Our commitment is to provide tailored solutions with integrity and professionalism.</p> <a href="about-us.html" class="btn">Learn More About Us</a> 
-  </section> <!-- Vision Image --> 
-  <section> 
-   <img src="https://i.postimg.cc/brz82Mf8/vision-leadership-mission.jpg" alt="Vision, Leadership, Mission" class="oval-image"> 
-  </section> <!-- Vision Section --> 
-  <section> 
-   <h2 class="section-title">Our Vision</h2> 
-   <p>To be a leading law firm recognized for delivering innovative legal solutions with integrity, professionalism, and commitment to clients' success.</p> 
-  </section> <!-- Key Practice Areas Section --> 
-  <section> 
-   <h2 class="section-title">Key Practice Areas</h2> 
-   <div class="key-practice-areas"> 
-    <div class="practice-box">
-      Land Matters 
-    </div> 
-    <div class="practice-box">
-      Legal Writing 
-    </div> 
-    <div class="practice-box">
-      Government Contracts 
-    </div> 
-    <div class="practice-box">
-      Labour &amp; Employment 
-    </div> 
-    <div class="practice-box">
-      Corporate Litigation 
-    </div> 
-    <div class="practice-box">
-      Dispute Resolution 
-    </div> 
-   </div> 
-  </section> <!-- Contact Us Button --> 
-  <section> <a href="contact-us.html" class="btn">Contact Us</a> 
-  </section> <!-- Footer Section --> 
-  <footer> 
-   <p>© 2025 Jonathan Law Advocates. All Rights Reserved.</p> 
-  </footer> 
- 
-</body></html>
+
+    /* Center text after headings */
+    .section p {
+      text-align: center;
+      font-size: 1.1rem; /* Adjust text size for readability */
+      margin: 0 15%;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Updated Header Section -->
+  <header>
+    <img src="https://i.postimg.cc/hGbpTMmr/IMG-20250104-181019.jpg" alt="Jonathan Law Advocates Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="our-team.html">Our Team</a>
+      <a href="contact-us.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://i.postimg.cc/zvwSsFwB/lawfirm-1.jpg" alt="Law Firm Hero">
+  </section>
+
+  <!-- Introduction Section -->
+  <section class="section">
+    <h2 class="section-title">Introduction</h2>
+    <p>Jonathan Law Advocates was established in 2018 as a medium-size law firm with offices in Nairobi. We collaborate with law firms countrywide and internationally. Our commitment is to provide tailored solutions with integrity and professionalism.</p>
+    <a href="about-us.html" class="btn">Learn More About Us</a>
+  </section>
+
+  <!-- Vision Image -->
+  <section>
+    <img src="https://i.postimg.cc/brz82Mf8/vision-leadership-mission.jpg" alt="Vision, Leadership, Mission" class="oval-image">
+  </section>
+
+  <!-- Vision Section -->
+  <section class="section">
+    <h2 class="section-title">Our Vision</h2>
+    <p>To be a leading law firm recognized for delivering innovative legal solutions with integrity, professionalism, and commitment to clients' success.</p>
+  </section>
+
+  <!-- Key Practice Areas Section -->
+  <section>
+    <h2 class="section-title">Key Practice Areas</h2>
+    <div class="key-practice-areas">
+      <div class="practice-box">Land Matters</div>
+      <div class="practice-box">Legal Writing</div>
+      <div class="practice-box">Government Contracts</div>
+      <div class="practice-box">Labour & Employment</div>
+      <div class="practice-box">Corporate Litigation</div>
+      <div class="practice-box">Dispute Resolution</div>
+    </div>
+  </section>
+
+  <!-- Contact Us Button -->
+  <section>
+    <a href="contact-us.html" class="btn">Contact Us</a>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025 Jonathan Law Advocates. All Rights Reserved.</p>
+  </footer>
+</body>
+</html/> 
