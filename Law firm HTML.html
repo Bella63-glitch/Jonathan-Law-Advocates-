@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Jonathan Law Advocates</title> 
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      line-height: 1.8;
+      animation: fadeInBody 1.5s ease-out;
+    }
+
+    @keyframes fadeInBody {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Header Section */
+    header {
+      background: #ffffff;
+      padding: 1rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-icon {
+      font-size: 1.8rem;
+      color: #F5864E;
+      cursor: pointer;
+    }
+
+    header img {
+      max-height: 80px;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 350px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #88403F;
+      text-transform: uppercase;
+      margin: 2rem 0;
+    }
+
+    /* Introduction Section */
+    p {
+      max-width: 800px;
+      margin: 0 auto;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Oval Image */
+    .oval-image {
+      display: block;
+      margin: 2rem auto;
+      width: 300px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Key Practice Areas Section */
+    .key-practice-areas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .practice-box {
+      background: #F5864E;
+      color: black;
+      width: 300px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      opacity: 0;
+      animation: slideIn 1s ease-out forwards;
+    }
+
+    .practice-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .practice-box:nth-child(1) {
+      animation-delay: 0.2s;
+    }
+
+    .practice-box:nth-child(2) {
+      animation-delay: 0.4s;
+    }
+
+    .practice-box:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+
+    .practice-box:nth-child(4) {
+      animation-delay: 0.8s;
+    }
+
+    .practice-box:nth-child(5) {
+      animation-delay: 1s;
+    }
+
+    .practice-box:nth-child(6) {
+      animation-delay: 1.2s;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Button */
+    .btn {
+      display: block;
+      background-color: #800000;
+      color: white;
+      padding: 0.8rem 2rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 4px;
+      text-decoration: none;
+      margin: 2rem auto;
+      width: 200px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #88403F;
+      transform: scale(1.05);
+    }
+
+    /* Footer Section */
+    footer {
+      background: #000000; /* Changed to black */
+      color: white;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style> 
+ </head> 
+ <body> <!-- Header --> 
+  <header> <span class="menu-icon">☰</span> 
+   <img src="https://i.postimg.cc/hGbpTMmr/IMG-20250104-181019.jpg" alt="Law Firm Logo"> 
+  </header> <!-- Hero Section --> 
+  <section class="hero"> 
+   <img src="https://i.postimg.cc/zvwSsFwB/lawfirm-1.jpg" alt="Law Firm Hero"> 
+  </section> <!-- Introduction Section --> 
+  <section> 
+   <h2 class="section-title">Introduction</h2> 
+   <p>Jonathan Law Advocates was established in 2018 as a medium-size law firm with offices in Nairobi. We collaborate with law firms countrywide and internationally. Our commitment is to provide tailored solutions with integrity and professionalism.</p> <a href="about-us.html" class="btn">Learn More About Us</a> 
+  </section> <!-- Vision Image --> 
+  <section> 
+   <img src="https://i.postimg.cc/brz82Mf8/vision-leadership-mission.jpg" alt="Vision, Leadership, Mission" class="oval-image"> 
+  </section> <!-- Vision Section --> 
+  <section> 
+   <h2 class="section-title">Our Vision</h2> 
+   <p>To be a leading law firm recognized for delivering innovative legal solutions with integrity, professionalism, and commitment to clients' success.</p> 
+  </section> <!-- Key Practice Areas Section --> 
+  <section> 
+   <h2 class="section-title">Key Practice Areas</h2> 
+   <div class="key-practice-areas"> 
+    <div class="practice-box">
+      Land Matters 
+    </div> 
+    <div class="practice-box">
+      Legal Writing 
+    </div> 
+    <div class="practice-box">
+      Government Contracts 
+    </div> 
+    <div class="practice-box">
+      Labour &amp; Employment 
+    </div> 
+    <div class="practice-box">
+      Corporate Litigation 
+    </div> 
+    <div class="practice-box">
+      Dispute Resolution 
+    </div> 
+   </div> 
+  </section> <!-- Contact Us Button --> 
+  <section> <a href="contact-us.html" class="btn">Contact Us</a> 
+  </section> <!-- Footer Section --> 
+  <footer> 
+   <p>© 2025 Jonathan Law Advocates. All Rights Reserved.</p> 
+  </footer> 
+ 
+</body></html>

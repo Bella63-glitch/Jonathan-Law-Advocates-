@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Jonathan Law Advocates</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      color: #333;
+      background-color: #f4f4f4;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: white;
+      color: #333;
+      padding: 1.5rem 5%;
+      border-bottom: 2px solid #cccccc;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 60px;
+      margin-bottom: 0.5rem;
+      animation: fadeIn 1.5s ease;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+      font-weight: bold;
+      text-transform: uppercase;
+      animation: slideDown 1.5s ease;
+    }
+
+    section {
+      padding: 2rem 5%;
+      margin: 1rem auto;
+      max-width: 1000px;
+      text-align: left;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    section:nth-child(even) {
+      animation-delay: 0.5s;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      color: #2B2B2B;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    section p, section ul {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      text-align: left;
+      margin: 1rem auto;
+      max-width: 800px;
+      padding: 0 1rem;
+    }
+
+    ul li {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      list-style: square;
+    }
+
+    section img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .oval-img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 50%; /* Makes the image oval */
+      margin: 0 auto 1.5rem;
+      display: block;
+      animation: zoomIn 1.5s ease;
+    }
+
+    footer {
+      background: #800000; /* Maroon color */
+      color: white;
+      text-align: center;
+      padding: 1.5rem 5%;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      margin: 0;
+      animation: fadeIn 1.5s ease;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideDown {
+      0% {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://i.postimg.cc/hGbpTMmr/IMG-20250104-181019.jpg" alt="Jonathan Law Advocates Logo">
+    <h1>About Us</h1>
+  </header>
+
+  <!-- Vision Section -->
+  <section>
+    <h2>Our Vision</h2>
+    <p>To be a Law Firm renowned for its World Class service, people, and partnerships.</p>
+  </section>
+
+  <!-- Mission Section -->
+  <section>
+    <h2>Mission Statement</h2>
+    <p>To render professional, efficient, and personalized legal services to our clients.</p>
+  </section>
+
+  <!-- Credo Section -->
+  <section>
+    <h2>Our Credo</h2>
+    <p>To serve professionally and efficiently all benchmarked by high standards of integrity.</p>
+  </section>
+
+  <!-- Firm Overview -->
+  <section>
+    <img src="https://i.postimg.cc/zvwSsFwB/lawfirm-1.jpg" alt="Law Firm Overview">
+    <h2>Firm Overview</h2>
+    <p>Jonathan Law Advocates was established in the year 2018 as a medium-size law firm with its offices in Nairobi. We collaborate with law firms countrywide and internationally.</p>
+    <ul>
+      <li>Land matters</li>
+      <li>Legal writing and drafting</li>
+      <li>Government contracts</li>
+      <li>Labour and employment</li>
+      <li>Corporate litigation</li>
+      <li>Alternative dispute resolution</li>
+    </ul>
+  </section>
+
+  <!-- Consultancy Section -->
+  <section>
+    <img class="oval-img" src="https://i.postimg.cc/bY6LrHcD/306bd5317777bc5ada425b6d43e4b9ef.jpg" alt="Consultancy">
+    <h2>Consultancy</h2>
+    <p>We have assisted in the following consultancy projects:</p>
+    <ul>
+      <li>Assisted in the conclusion of various development projects, including the drafting of sale agreements and leases and registration of the same while acting for the developer.</li>
+      <li>Registration of NGOs under the Non-Governmental Co-ordination Act, including advising NGOs on compliance with the laws of Kenya.</li>
+      <li>Drafting of the Kenya Burial Bill, 2014, including stakeholder engagement, report preparation, and presentation for endorsement.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jonathan Law Advocates. All Rights Reserved.</p>
+  </footer>
+
+
+</body></html>
