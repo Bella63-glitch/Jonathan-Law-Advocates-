@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Team - Jonathan Law Advocates</title>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Our Team - Jonathan Law Advocates</title> 
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -40,6 +40,7 @@
       max-width: 300px;
       text-align: center;
       transition: transform 0.3s, box-shadow 0.3s;
+      animation: fadeInUp 0.5s ease-in-out;
     }
 
     .profile-card:hover {
@@ -72,90 +73,78 @@
       text-align: center;
       padding: 1rem;
     }
-  </style>
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <h1>Our Team</h1>
-  </header>
 
-  <!-- Team Profiles -->
-  <div class="team-container">
-    <!-- Profile Card 1 -->
-    <div class="profile-card">
-      <img src="https://via.placeholder.com/100" alt="Jonathan Warui">
-      <h2>Mr. Jonathan Warui</h2>
-      <p><strong>Managing Partner</strong></p>
-      <p><strong>Educational Background:</strong> LLB, Nairobi University (2013). Post Graduate Diploma, Kenya School of Law (2014).</p>
-      <p><strong>Practice Areas:</strong> Conveyancing, Commercial Litigation, Criminal Litigation, Debt Recovery.</p>
-      <p><strong>Memberships:</strong> Law Society of Kenya, Chartered Institute of Arbitrators.</p>
-    </div>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style> 
+ </head> 
+ <body> 
+  <!-- Header --> 
+  <header> 
+   <h1>Our Team</h1> 
+  </header> 
+  
+  <!-- Team Profiles --> 
+  <div class="team-container"> 
+    <!-- Profile Card 1 --> 
+    <div class="profile-card"> 
+      <img src="https://i.postimg.cc/zGhDRgFn/IMG-20250120-175928.png" alt="Mr. Jonathan Warui"> 
+      <h2>Mr. Jonathan Warui</h2> 
+      <p><strong>Managing Partner</strong></p> 
+      <p><strong>Educational Background:</strong> Bachelor of Laws from Nairobi University (2013), Postgraduate Diploma from Kenya School of Law (2014).</p> 
+      <p><strong>Practice Areas:</strong> Conveyancing, Commercial Litigation, Criminal Litigation, Debt Recovery.</p> 
+      <p><strong>Memberships:</strong> Law Society of Kenya, Chartered Institute of Arbitrators.</p> 
+    </div> 
+    
+    <!-- Profile Card 2 --> 
+    <div class="profile-card"> 
+      <img src="https://i.postimg.cc/y6G6LHn6/IMG-20250120-180938.png" alt="Mr. David Chengo"> 
+      <h2>Mr. David Chengo</h2> 
+      <p><strong>Associate</strong></p> 
+      <p><strong>Educational Background:</strong> Bachelor of Laws from University of South Africa (2008).</p> 
+      <p><strong>Practice Areas:</strong> Corporate Law, Conveyancing, Commercial Litigation.</p> 
+    </div> 
+    
+    <!-- Profile Card 3 --> 
+    <div class="profile-card"> 
+      <img src="https://i.postimg.cc/W1wG6Q5b/IMG-20250120-173848.jpg" alt="Grace Kalondu Musembi"> 
+      <h2>Ms. Grace Kalondu Musembi</h2> 
+      <p><strong>Associate Advocate </strong></p> 
+      <p><strong>Educational Background:</strong> Bachelor of Laws from Catholic University of Eastern Africa, Postgraduate Diploma from Kenya School of Law.</p> 
+      <p><strong>Practice Areas:</strong> Civil Litigation, Criminal Litigation, Family Law.</p> 
+    </div> 
+    
+    <!-- Profile Card 4 --> 
+    <div class="profile-card"> 
+      <img src="https://i.postimg.cc/pTFM3Yhr/IMG-20250120-173453.jpg" alt="Purity Kinya Kaburu"> 
+      <h2>Ms. Purity Kinya Kaburu</h2> 
+      <p><strong>In Charge of Litigation</strong></p> 
+      <p><strong>Educational Background:</strong> Bachelor of Laws from University of Nairobi, Diploma in Law from Kenya School of Law.</p> 
+      <p><strong>Practice Areas:</strong> Civil Litigation, Criminal Litigation, Banking Litigation.</p> 
+    </div> 
 
-    <!-- Profile Card 2 -->
-    <div class="profile-card">
-      <img src="https://via.placeholder.com/100" alt="Ayabei Kiprotich">
-      <h2>Mr. Ayabei Kiprotich</h2>
-      <p><strong>Partner</strong></p>
-      <p><strong>Educational Background:</strong> LLB, University of Nairobi. Post Graduate Diploma, Kenya School of Law.</p>
-      <p><strong>Practice Areas:</strong> Commercial Law, Legal Drafting, Civil Litigation.</p>
-      <p><strong>Memberships:</strong> Law Society of Kenya.</p>
-    </div>
+    <!-- Profile Card 5 --> 
+    <div class="profile-card"> 
+      <img src="https://i.postimg.cc/J4tvF5fL/IMG-20250120-WA0082.jpg" alt="David Wanjau Macharia"> 
+      <h2>David Wanjau Macharia</h2> 
+      <p><strong>Finance Manager</strong></p> 
+      <p><strong>Educational Background:</strong> Bachelor of Education (Mathematics and Chemistry) from Egerton University.</p> 
+      <p><strong>Professional Qualification:</strong> Certified Public Accountant (KASNEB).</p> 
+      <p><strong>Memberships:</strong> ICPAK (2020-date).</p> 
+    </div> 
+  </div> 
 
-    <!-- Profile Card 3 -->
-    <div class="profile-card">
-      <img src="https://via.placeholder.com/100" alt="Dennis Mwenda">
-      <h2>Mr. Dennis Mwenda</h2>
-      <p><strong>Associate</strong></p>
-      <p><strong>Educational Background:</strong> LLB, Mount Kenya University. Post Graduate Diploma, Kenya School of Law.</p>
-      <p><strong>Practice Areas:</strong> Commercial Litigation, Debt Collection, Judicial Review.</p>
-      <p><strong>Memberships:</strong> Law Society of Kenya.</p>
-    </div>
-
-    <!-- Profile Card 4 -->
-    <div class="profile-card">
-      <img src="https://via.placeholder.com/100" alt="Jacob Malelu">
-      <h2>Mr. Jacob Malelu</h2>
-      <p><strong>Associate</strong></p>
-      <p><strong>Educational Background:</strong> LLB, Kenya Law Reform.</p>
-      <p><strong>Practice Areas:</strong> Legal Writing, Drafting, Civil Litigation.</p>
-      <p><strong>Memberships:</strong> Law Society of Kenya.</p>
-    </div>
-
-    <!-- Profile Card 5 -->
-    <div class="profile-card">
-      <img src="https://via.placeholder.com/100" alt="Wanjiru Kiaritha">
-      <h2>Ms. Wanjiru Kiaritha</h2>
-      <p><strong>Associate Partner</strong></p>
-      <p><strong>Educational Background:</strong> LLB, Kenya School of Law.</p>
-      <p><strong>Practice Areas:</strong> Legal Research, Law of Contract, Drafting.</p>
-      <p><strong>Memberships:</strong> Law Society of Kenya.</p>
-    </div>
-
-    <!-- Profile Card 6 -->
-    <div class="profile-card">
-      <img src="https://via.placeholder.com/100" alt="David Chengo">
-      <h2>Mr. David Chengo</h2>
-      <p><strong>Associate</strong></p>
-      <p><strong>Educational Background:</strong> LLB, South Africa University.</p>
-      <p><strong>Practice Areas:</strong> Corporate Law, Conveyancing.</p>
-      <p><strong>Memberships:</strong> Law Society of Kenya.</p>
-    </div>
-
-    <!-- Profile Card 7 -->
-    <div class="profile-card">
-      <img src="https://via.placeholder.com/100" alt="David Wanjau">
-      <h2>Mr. David Wanjau</h2>
-      <p><strong>Finance Manager</strong></p>
-      <p><strong>Educational Background:</strong> B.Ed (Mathematics and Chemistry), Certified Public Accountant.</p>
-      <p><strong>Practice Areas:</strong> Financial Management, Administration.</p>
-      <p><strong>Memberships:</strong> ICPAK.</p>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Jonathan Law Advocates. All Rights Reserved.</p>
-  </footer>
-
-</body></html>
+  <!-- Footer --> 
+  <footer> 
+    <p>© 2025 Jonathan Law Advocates. All Rights Reserved.</p> 
+  </footer> 
+ </body> 
+</html>
